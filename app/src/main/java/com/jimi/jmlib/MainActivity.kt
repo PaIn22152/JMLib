@@ -2,6 +2,7 @@ package com.jimi.jmlib
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.jimi.jmutil.JimiTest2
 import com.jimi.jmutil.TestJM
 
 class MainActivity : AppCompatActivity() {
@@ -10,5 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         
         TestJM.gettestStr()
+        JimiTest1.test()
+        JimiTest2.test()
     }
 }

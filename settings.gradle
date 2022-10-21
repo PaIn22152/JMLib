@@ -1,0 +1,4 @@
+
+rootProject.name = "JMLib"
+include ':app'
+include ':jmutil'

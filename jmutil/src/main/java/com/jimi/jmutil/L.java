@@ -11,7 +11,11 @@ import android.util.Log;
  */
 public class L {
 
-    private static final boolean SHOW_LOG = true;
+    private static boolean SHOW_LOG = true;
+
+    public static void showLog(boolean b) {
+        SHOW_LOG = b;
+    }
 
     public static void d(String tag, String content) {
         if (SHOW_LOG) {
